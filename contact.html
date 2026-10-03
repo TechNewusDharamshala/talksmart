@@ -1710,16 +1710,7 @@ body {
     contactForm.addEventListener("submit", async function (event) {
   event.preventDefault();
 
-  const submitBtn = document.getElementById("submitBtn");
-
-  // Disable button immediately
-  submitBtn.disabled = true;
-   // Open popup immediately
-  feedbackModal.classList.add("show");
-  document.body.style.overflow = "hidden";
-
-  // Reset form immediately
-  contactForm.reset();
+  // Get values FIRST
   const formData = {
     name: document.getElementById("name").value,
     phone: document.getElementById("phone").value,
@@ -1728,39 +1719,38 @@ body {
     message: document.getElementById("message").value
   };
 
+  console.log("Form Data:", formData);
+
+  // Disable button
+  const submitBtn = document.getElementById("submitBtn");
+  submitBtn.disabled = true;
+
+  // Show popup immediately
+  feedbackModal.classList.add("show");
+  document.body.style.overflow = "hidden";
+
+  // Reset AFTER getting form data
+  contactForm.reset();
+
+  // Send data to backend
   try {
-    const response = await fetch("https://talk-smart-backend.vercel.app/api/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        name: formData.name,
-        phone: formData.phone,
-        email: formData.email,
-        course: formData.course,
-        message: formData.message
-      })
-    });
+    const response = await fetch(
+      "https://talk-smart-backend.vercel.app/api/contact",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(formData)
+      }
+    );
 
     const result = await response.json();
 
     console.log("Backend Response:", result);
 
-    if (result.success) {
-      // Reset contact form
-      contactForm.reset();
-
-      // Open your existing feedback popup
-      feedbackModal.classList.add("show");
-      document.body.style.overflow = "hidden";
-    } else {
-      alert("Something went wrong. Please try again.");
-    }
-
   } catch (error) {
-    console.error("Error submitting contact form:", error);
-    alert("Unable to connect to the server.");
+    console.error("Error submitting form:", error);
   }
 });
 
