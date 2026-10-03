@@ -638,9 +638,9 @@ section {
 
 .exam-card {
   flex: 1 1 220px;
-  max-width: 260px;
+  max-width: 360px;
   padding: 28px 22px;
-  text-align: center;
+  text-align: left;
   border-radius: var(--radius);
   background: var(--white);
   border: 1px solid var(--border);
