@@ -1501,7 +1501,7 @@ body {
 
 
           <!-- BUTTON -->
-          <button type="submit" class="chalk-submit">
+          <button type="submit" class="chalk-submit" id="submitBtn">
             Send Message
             <span>→</span>
           </button>
@@ -1710,6 +1710,16 @@ body {
     contactForm.addEventListener("submit", async function (event) {
   event.preventDefault();
 
+  const submitBtn = document.getElementById("submitBtn");
+
+  // Disable button immediately
+  submitBtn.disabled = true;
+   // Open popup immediately
+  feedbackModal.classList.add("show");
+  document.body.style.overflow = "hidden";
+
+  // Reset form immediately
+  contactForm.reset();
   const formData = {
     name: document.getElementById("name").value,
     phone: document.getElementById("phone").value,
