@@ -98,11 +98,17 @@ section {
 .nav-links a {
   font-weight: 700;
   color: var(--navy);
+  background-color: #f0c75e; /* Warm gold */
+  padding: 10px 16px;
+  border-radius: 6px;
   transition: 0.25s ease;
+  text-decoration: none;
+  
 }
 
 .nav-links a:hover {
   color: var(--saffron);
+ 
 }
 
 .nav-cta {
