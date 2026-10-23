@@ -25,11 +25,14 @@ html {
 }
 
 body {
+
   
   color: var(--ink);
   background: var(--white);
   line-height: 1.6;
-  font-family: lato, sans-serif;
+   font-family: Bahnschrift, ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 img {
