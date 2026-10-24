@@ -762,9 +762,21 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   margin-top: 35px;
   padding-top: 18px;
-  text-align: center;
   color: #9eabc2;
   font-size: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.copyright p {
+  margin: 0;
+  text-align: center;
+  width: 100%;
 }
 
 /* =========================
