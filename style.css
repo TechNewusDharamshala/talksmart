@@ -64,7 +64,11 @@ section {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: rgba(255, 255, 255, 0.97);
+
+  background-color: #ffffff;
+  opacity: 1;
+  backdrop-filter: none;
+
   border-bottom: 1px solid var(--border);
   box-shadow: 0 4px 18px rgba(16, 36, 92, 0.07);
 }
