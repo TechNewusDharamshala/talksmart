@@ -25,11 +25,11 @@ const examData = [
       'https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=900',
   },
   {
-    title: 'All Competitive Exams',
+    title: 'All Exams',
     description:
       'Prepare for Banking, SSC, Defence, Civil Services, Railways, Teaching, Police, Insurance, and other competitive examinations.',
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4LcCD46dhassFjGpqyPPqyp3dcoKhJedhFQaUmXAhmAI89lktWSpdoac&s=10',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1yvWwqAFkmoZaYPe44nAF_ZVjkwoBoI5irbLERr0U5XiDJuqvTSJhh8w&s=10',
   },
 ];
 
