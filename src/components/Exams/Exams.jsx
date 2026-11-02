@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import './Exams.css';
-
+import allExamsImage from '../../assets/images/imgg.png';
 const examData = [
   {
     title: 'IELTS',
@@ -29,7 +29,7 @@ const examData = [
     description:
       'Prepare for Banking, SSC, Defence, Civil Services, Railways, Teaching, Police, Insurance, and other competitive examinations.',
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1yvWwqAFkmoZaYPe44nAF_ZVjkwoBoI5irbLERr0U5XiDJuqvTSJhh8w&s=10',
+      allExamsImage,
   },
 ];
 
