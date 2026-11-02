@@ -27,6 +27,19 @@ const Footer = () => {
             <a href="#exams">Exams</a>
           </div>
 
+
+          {/* Contact */}
+          <div className="footer-column">
+            <h3>Contact</h3>
+            <p>Phone: +91 8091580801</p>
+            <p>Email: talksmart144@gmail.com</p>
+            <p>
+              59, Civil Lines, above Food Plaza Restaurant, near KCC Bank
+              Head Office, Chilgari, Dharamshala, Himachal Pradesh 176215
+            </p>
+          </div>
+
+          
           {/* Social Media */}
 <div className="footer-column">
   <h3>Follow Us</h3>
@@ -58,17 +71,6 @@ const Footer = () => {
     LinkedIn
   </a>
 </div>
-
-          {/* Contact */}
-          <div className="footer-column">
-            <h3>Contact</h3>
-            <p>Phone: +91 8091580801</p>
-            <p>Email: talksmart144@gmail.com</p>
-            <p>
-              59, Civil Lines, above Food Plaza Restaurant, near KCC Bank
-              Head Office, Chilgari, Dharamshala, Himachal Pradesh 176215
-            </p>
-          </div>
 
          
 
