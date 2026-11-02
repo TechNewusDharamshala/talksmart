@@ -8,15 +8,20 @@
 }
 
 .exam-card {
-  flex: 1 1 220px;
-  max-width: 360px;
-  padding: 28px 22px;
-  text-align: left;
-  border-radius: var(--radius);
-  background: var(--white);
-  border: 1px solid var(--border);
+  background: #f5f8ff;
+  border: 1px solid #dce5f5;
+  border-radius: 20px;
+  padding: 2px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
+.exam-card:hover {
+  background: #eef3ff;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(8, 20, 55, 0.08);
+}
 .exam-card h3 {
   color: var(--navy);
   font-size: 24px;
@@ -32,5 +37,97 @@
 @media (max-width: 768px) {
   .exam-card {
     max-width: 100%;
+  }
+}
+
+/* Clickable exam cards */
+.exam-card {
+  cursor: pointer;
+}
+
+.exam-card:hover {
+  background: #eef3ff;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(8, 20, 55, 0.08);
+}
+
+/* Popup background */
+.exam-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(4, 15, 45, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 9999;
+}
+
+/* Popup box */
+.exam-modal {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  max-width: 650px;
+  border-radius: 18px;
+  overflow: hidden;
+  animation: examPopup 0.3s ease;
+}
+
+.exam-modal img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.exam-modal-content {
+  padding: 25px;
+}
+
+.exam-modal-content h2 {
+  color: #10285d;
+  margin-bottom: 12px;
+}
+
+.exam-modal-content p {
+  color: #526681;
+  line-height: 1.7;
+}
+
+.exam-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background: #fff;
+  color: #10285d;
+  font-size: 26px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+@keyframes examPopup {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .exam-modal img {
+    height: 200px;
+  }
+
+  .exam-modal-content {
+    padding: 20px;
   }
 }
