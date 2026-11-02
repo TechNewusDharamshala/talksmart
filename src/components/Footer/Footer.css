@@ -76,7 +76,7 @@
 }
 
 .footer-logo {
-  width: 160px;
+  width: 85px;
   height: auto;
   margin-bottom: 15px;
 }
@@ -136,7 +136,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 350px) {
   .footer {
     padding: 40px 20px 20px;
   }
