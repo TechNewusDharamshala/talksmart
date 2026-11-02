@@ -1,0 +1,36 @@
+/* EXAM PREPARATION */
+
+.exam-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.exam-card {
+  flex: 1 1 220px;
+  max-width: 360px;
+  padding: 28px 22px;
+  text-align: left;
+  border-radius: var(--radius);
+  background: var(--white);
+  border: 1px solid var(--border);
+}
+
+.exam-card h3 {
+  color: var(--navy);
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.exam-card p {
+  color: var(--muted);
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 768px) {
+  .exam-card {
+    max-width: 100%;
+  }
+}
