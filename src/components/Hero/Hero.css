@@ -31,13 +31,17 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 480px) {
   .welcome-hero {
     min-height: 500px;
   }
 
   .welcome-bg {
-    object-position: center;
+    object-fit: cover;
+    object-position: 55% center;
+  }
+
+  .welcome-content h1 {
+    font-size: 38px;
   }
 }

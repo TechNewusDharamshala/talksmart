@@ -18,32 +18,27 @@ const Exam = () => {
           <article className="exam-card">
             <h3>IELTS</h3>
             <p>
-              IELTS Course includes Academic and General Training preparation
-              with focused IELTS Speaking practice and Writing Task 1 and
-              Task 2 training. You will also work on skimming and scanning
-              techniques, vocabulary and grammar enhancement, and full-length
-              IELTS mock tests.
+              Prepare for IELTS Academic and General Training with focused Speaking, Writing Task 1 & 2, skimming and scanning techniques, vocabulary and grammar enhancement, and full-length mock tests to boost your confidence and performance.
+
+
             </p>
           </article>
 
           <article className="exam-card">
             <h3>PTE</h3>
             <p>
-              Our PTE Course provides 100% computer-based test preparation
-              with PTE question-type practice and pronunciation training.
-              The course includes Describe Image, Retell Lecture, Write From
-              Dictation, and timed PTE mock tests to help you practice the
-              key parts of the exam.
+              Our PTE Course offers 100% computer-based preparation, question-type practice, pronunciation training, Describe Image, Retell Lecture, Write From Dictation, and timed mock tests to build confidence and improve exam performance.
+
+
             </p>
           </article>
 
           <article className="exam-card">
             <h3>TOEFL</h3>
             <p>
-              TOEFL Course focuses on academic English preparation with
-              academic writing skills, note-taking techniques, and TOEFL
-              iBT test training. You will also practice with full-length
-              TOEFL mock tests to prepare for the exam.
+              Our TOEFL Course focuses on academic English, writing skills, note-taking techniques, and TOEFL iBT preparation, including full-length mock tests to strengthen your skills, build confidence, and improve exam performance.
+
+
             </p>
           </article>
           <article className="exam-card">
