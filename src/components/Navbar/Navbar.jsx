@@ -20,9 +20,9 @@ const Navbar = () => {
 
         <ul className="nav-links" id="navLinks">
           <a href="/#home">Home</a>
-<a href="/#about">About</a>
-<a href="/#courses">Courses</a>
-<a href="/#exams">Exams</a>
+          <a href="/#about">About</a>
+          <a href="/#courses">Courses</a>
+          <a href="/#exams">Exams</a>
           <li><a href="#contact" className="nav-cta">Contact</a></li>
         </ul>
 
