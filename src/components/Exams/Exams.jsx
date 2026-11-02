@@ -18,27 +18,21 @@ const Exam = () => {
           <article className="exam-card">
             <h3>IELTS</h3>
             <p>
-              Prepare for IELTS Academic and General Training with focused Speaking, Writing Task 1 & 2, skimming and scanning techniques, vocabulary and grammar enhancement, and full-length mock tests to boost your confidence and performance.
-
-
+              Prepare for IELTS Academic & General Training with focused practice in Speaking, Writing, Reading, vocabulary, grammar, and mock tests.
             </p>
           </article>
 
           <article className="exam-card">
             <h3>PTE</h3>
             <p>
-              Our PTE Course offers 100% computer-based preparation, question-type practice, pronunciation training, Describe Image, Retell Lecture, Write From Dictation, and timed mock tests to build confidence and improve exam performance.
-
-
+            Prepare for PTE with computer-based training, question practice, pronunciation, key Speaking and Writing tasks, and timed mock tests.
             </p>
           </article>
 
           <article className="exam-card">
             <h3>TOEFL</h3>
             <p>
-              Our TOEFL Course focuses on academic English, writing skills, note-taking techniques, and TOEFL iBT preparation, including full-length mock tests to strengthen your skills, build confidence, and improve exam performance.
-
-
+             Prepare for TOEFL iBT with academic English, Writing, note-taking strategies, and full-length mock tests to build confidence and improve exam performance.
             </p>
           </article>
           <article className="exam-card">
