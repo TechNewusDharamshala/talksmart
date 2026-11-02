@@ -29,7 +29,7 @@ const examData = [
     description:
       'Prepare for Banking, SSC, Defence, Civil Services, Railways, Teaching, Police, Insurance, and other competitive examinations.',
     image:
-      'https://images.unsplash.com/photo-1453738773917-9c3eff1db985?w=900',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4LcCD46dhassFjGpqyPPqyp3dcoKhJedhFQaUmXAhmAI89lktWSpdoac&s=10',
   },
 ];
 
