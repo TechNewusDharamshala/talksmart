@@ -46,6 +46,12 @@ const Exam = () => {
               TOEFL mock tests to prepare for the exam.
             </p>
           </article>
+          <article className="exam-card">
+            <h3>All Competitive Exams</h3>
+            <p>
+              Banking , SSC, Defence, Civil Services, Railways, Teaching, Police, Insurance, and other competitive exams preparation.
+            </p>
+          </article>
         </div>
       </div>
     </section>
