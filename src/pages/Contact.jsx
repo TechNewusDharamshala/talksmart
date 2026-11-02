@@ -245,7 +245,7 @@ const Contact = () => {
                     </option>
 
                     <option value="all">
-                      Other competitive exams
+                      All competitive exams
                     </option>
                   </select>
                 </div>
