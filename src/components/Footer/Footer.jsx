@@ -15,7 +15,7 @@ const Footer = () => {
               src={logo}
               alt="Talk Smart logo"
             />
-            <p>Talk Smart English Training, Dharamshala.</p>
+           
           </div>
 
           {/* Quick Links */}
