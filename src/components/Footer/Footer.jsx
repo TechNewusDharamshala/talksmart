@@ -15,6 +15,7 @@ const Footer = () => {
               src={logo}
               alt="Talk Smart logo"
             />
+            <p>Talk Smart English Training</p>
            
           </div>
 
