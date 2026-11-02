@@ -19,7 +19,7 @@ const Navbar = () => {
         </button>
 
         <ul className="nav-links" id="navLinks">
-          <a href="/#home">check</a>
+          <a href="/#home">Home</a>
 <a href="/#about">About</a>
 <a href="/#courses">Courses</a>
 <a href="/#exams">Exams</a>

@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="welcome-content">
 
           <div className="brand-kicker">
-            English Training · Dharamshala
+            
           </div>
 
           <h1>
