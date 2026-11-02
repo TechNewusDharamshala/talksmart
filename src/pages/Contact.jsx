@@ -243,6 +243,10 @@ const Contact = () => {
                     <option value="spoken-english">
                       Interview Preparation & Spoken English
                     </option>
+
+                    <option value="all">
+                      Other competitive exams
+                    </option>
                   </select>
                 </div>
 
