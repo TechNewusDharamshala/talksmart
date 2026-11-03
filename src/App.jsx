@@ -11,17 +11,17 @@ function App() {
     if (window.location.hash) {
       const sectionId = window.location.hash.substring(1);
 
-      requestAnimationFrame(() => {
+      setTimeout(() => {
         document.getElementById(sectionId)?.scrollIntoView({
           behavior: 'smooth',
         });
-      });
+      }, 100);
     }
   }, []);
 
   return (
     <>
-      {currentPath === '/contact'
+      {currentPath === '/contact' || currentPath === '/contact.html'
         ? <Contact />
         : <Home />
       }
