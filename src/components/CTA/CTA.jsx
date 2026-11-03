@@ -13,7 +13,7 @@ const CTA = () => {
           with more information about the training.
         </p>
 
-        <a href="/contact" className="primary-btn">
+        <a href="/contact.html" className="primary-btn">
           Contact Us →
         </a>
       </div>
