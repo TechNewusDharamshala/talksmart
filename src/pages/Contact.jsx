@@ -122,7 +122,7 @@ const Contact = () => {
           <div className="chalk-title">
             <span className="doodle-line">✦</span>
 
-            <h1>GET IN TOUCH</h1>
+            <h1> CHECKING.......................</h1>
 
             <span className="doodle-line">✦</span>
           </div>
