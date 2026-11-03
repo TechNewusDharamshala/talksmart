@@ -30,13 +30,13 @@ const Navbar = () => {
           {menuOpen ? '✕' : '☰'}
         </button>
 
-        <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
-          <li><a href="/#home" onClick={closeMenu}>Home</a></li>
-          <li><a href="/#about" onClick={closeMenu}>About</a></li>
-          <li><a href="/#courses" onClick={closeMenu}>Courses</a></li>
-          <li><a href="/#exams" onClick={closeMenu}>Exams</a></li>
-          <li><a href="#contact" className="nav-cta" onClick={closeMenu}>Contact</a></li>
-        </ul>
+       <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
+  <li><a href="/" onClick={closeMenu}>Home</a></li>
+  <li><a href="/about" onClick={closeMenu}>About</a></li>
+  <li><a href="/courses" onClick={closeMenu}>Courses</a></li>
+  <li><a href="/exams" onClick={closeMenu}>Exams</a></li>
+  <li><a href="/contact" className="nav-cta" onClick={closeMenu}>Contact</a></li>
+</ul>
 
       </div>
     </header>

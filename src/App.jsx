@@ -1,32 +1,31 @@
 
-import { useEffect } from 'react';
 import './App.css';
-import Contact from './pages/Contact';
+
 import Home from './pages/Home';
+import About from './pages/About';
+import Courses from './pages/Courses';
+import Exam from './pages/Exam';
+import Contact from './pages/Contact';
 
 function App() {
   const currentPath = window.location.pathname;
 
-  useEffect(() => {
-    if (window.location.hash) {
-      const sectionId = window.location.hash.substring(1);
+  switch (currentPath) {
+    case '/about':
+      return <About />;
 
-      setTimeout(() => {
-        document.getElementById(sectionId)?.scrollIntoView({
-          behavior: 'smooth',
-        });
-      }, 100);
-    }
-  }, []);
+    case '/courses':
+      return <Courses />;
 
-  return (
-    <>
-      {currentPath === '/contact'
-        ? <Contact />
-        : <Home />
-      }
-    </>
-  );
+    case '/exams':
+      return <Exam />;
+
+    case '/contact':
+      return <Contact />;
+
+    default:
+      return <Home />;
+  }
 }
 
 export default App;
