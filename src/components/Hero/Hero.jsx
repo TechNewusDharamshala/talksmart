@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 
-import heroBg from '../../assets/images/i2.png';
+import heroBg from '../../assets/images/imgg.png';
 
 const Hero = () => {
   return (
