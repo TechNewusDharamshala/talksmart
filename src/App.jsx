@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      {currentPath === '/contact' || currentPath === '/contact.html'
+      {currentPath === '/contact'
         ? <Contact />
         : <Home />
       }
