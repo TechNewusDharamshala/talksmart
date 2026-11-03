@@ -19,7 +19,14 @@ const Footer = () => {
            
           </div>
 
-        
+          {/* Quick Links */}
+          <div className="footer-column">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#exams">Exams</a>
+          </div>
 
 
           {/* Contact */}
