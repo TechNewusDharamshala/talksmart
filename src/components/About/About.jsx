@@ -11,16 +11,7 @@ const About = () => {
       <div className="container about-grid">
 
         <div className="about-image">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/Q7BxNmP8yKg?si=H0_2VkOrbst-Vtf_"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/QZjJ-l6p5fQ?si=yUvz8VGJkIaYWR6m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <div className="about-copy">
