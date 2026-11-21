@@ -1,7 +1,9 @@
 
 import React, { useState } from 'react';
 import './Courses.css';
-
+import course1 from "../images/c1.png";
+import course2 from "../images/c2.png";
+import course3 from "../images/c3.png";
 const courseData = {
   basic: {
     level: 'Level 01',
@@ -86,7 +88,7 @@ const Courses = () => {
             }}
           >
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8N84zeKCxNF5WzA938Ym8m2g6FG7TP2t5R7s2feAPwt8BanbvkidTOdQ&s=10"
+              src={course1}
               alt="Basic English"
             />
 
@@ -110,7 +112,7 @@ const Courses = () => {
             }}
           >
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR4LP2-NMzj8moFFKFr7QRzdPFY7EEq_zIRuH8Zh63qW955GkCxunafxKY&s=10"
+              src={course2}
               alt="Intermediate English"
             />
 
@@ -134,7 +136,7 @@ const Courses = () => {
             }}
           >
             <img
-              src="https://wmace.b-cdn.net/wp-content/uploads/2018/06/advance-english-communication-speaking-classes.jpg"
+              src={course3}
               alt="Advanced English"
             />
 

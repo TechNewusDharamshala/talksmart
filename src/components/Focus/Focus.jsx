@@ -1,5 +1,8 @@
 import React from 'react';
 import './Focus.css';
+import fig1 from "../images/f1.png";
+import fig2 from "../images/f2.png";
+import fig3 from "../images/f3.png";
 
 const Focus = () => {
   return (
@@ -22,7 +25,7 @@ const Focus = () => {
 
           <article className="value-card">
             <img
-              src="https://cdn5.planetspark.in/media/small_0_3_409321bf41.png"
+              src={fig1}
               width="300"
               height="200"
               alt="Career growth"
@@ -36,7 +39,7 @@ const Focus = () => {
 
           <article className="value-card">
             <img
-              src="https://winskill.org/wp-content/uploads/2026/09/Lets-Speak-English-Classroom-1536x864.jpg"
+              src={fig2}
               width="300"
               height="200"
               alt="English classroom"
@@ -50,7 +53,7 @@ const Focus = () => {
 
           <article className="value-card">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGQJ89BK_6LsIZG7e-ecT7Ch9D_rowoCWuiC9tVxAtwGBo93UhxMWNirY&s=10"
+              src={fig3}
               width="300"
               height="200"
               alt="English learning"
