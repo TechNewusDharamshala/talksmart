@@ -2,6 +2,7 @@ import React from 'react';
 import './Hero.css';
 
 import heroBg from '../../assets/images/imgg.png';
+import heroImg from '../images/hero-img.png';
 
 const Hero = () => {
   return (
@@ -9,7 +10,7 @@ const Hero = () => {
 
       <img
         className="welcome-bg"
-        src={heroBg}
+        src={heroImg}
         alt="Students learning English in a classroom"
       />
 
